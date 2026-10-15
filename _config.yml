@@ -1,0 +1,6 @@
+# GitHub Pages (Jekyll) config for the public bynge-legal site.
+# These pages are the source of truth for the Privacy Policy, Terms of Use and
+# Support page: the same files are bundled into the app for in-app viewing.
+title: Bynge
+description: Rank the films and TV shows you watch.
+theme: jekyll-theme-minimal
