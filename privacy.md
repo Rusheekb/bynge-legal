@@ -88,4 +88,4 @@ We may update this policy from time to time. If we make significant changes, we'
 
 ## Contact
 
-Questions or requests: **byngedev@gmail.com**
+Questions or requests: **support@byngeapp.com**

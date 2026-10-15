@@ -9,7 +9,7 @@ Bynge lets you rank the films and TV shows you watch through quick head-to-head 
 
 ## Contact
 
-Email **byngedev@gmail.com**. We usually reply within 2 business days, and we handle reports of objectionable content within 24 hours.
+Email **support@byngeapp.com**. We usually reply within 2 business days, and we handle reports of objectionable content within 24 hours.
 
 ## Common questions
 

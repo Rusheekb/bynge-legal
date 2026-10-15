@@ -7,7 +7,7 @@ permalink: /terms/
 
 **Effective October 14, 2026**
 
-These Terms of Use ("Terms") govern your use of Bynge, an app operated by an individual developer ("we", "us"). By creating an account or using Bynge, you agree to these Terms and to our [Privacy Policy](https://rusheekb.github.io/bynge-legal/privacy/). If you don't agree, don't use Bynge.
+These Terms of Use ("Terms") govern your use of Bynge, an app operated by an individual developer ("we", "us"). By creating an account or using Bynge, you agree to these Terms and to our [Privacy Policy](https://byngeapp.com/privacy/). If you don't agree, don't use Bynge.
 
 ## Eligibility
 
@@ -74,4 +74,4 @@ We may update these Terms. If we make significant changes, we'll notify you in t
 
 ## Contact
 
-**byngedev@gmail.com**
+**support@byngeapp.com**
