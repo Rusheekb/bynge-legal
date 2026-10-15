@@ -17,7 +17,7 @@ The short version: we collect only what the app needs to work. We don't sell you
 
 **Profile information.** Your username, and optionally a display name, bio, and profile photo.
 
-**Content you create.** The titles you log, mark as watched, or add to your watchlist; your rankings and scores; the head-to-head comparisons you make; notes you write; reactions; and the accounts you follow or block.
+**Content you create.** The titles you log, mark as watched, or add to your watchlist; your rankings and scores; the head-to-head comparisons you make; notes and reviews you write; comments; reactions; your diary; and the accounts you follow or block.
 
 **Reports.** If you report an account or content, we store the report, the reason you chose, and what was reported.
 
@@ -45,7 +45,9 @@ Your **username, display name, profile photo, and bio** are visible to other sig
 
 By default, your **rankings, watch activity, diary, reviews, and reactions** are visible to other signed-in users. If you turn on **Private Account** in Settings, people have to request to follow you, and only the followers you approve can see them. Follow requests are visible only to you and the person who sent them.
 
-People you have blocked can't see your activity in their feed, and you won't see theirs.
+Comments you post are visible to everyone who can see the post you commented on. The post's owner can delete comments on their post.
+
+People you have blocked can't see your activity or comments, and you won't see theirs.
 
 **Bynge scores and the leaderboard.** If your account is public, your scores count toward each title's Bynge score. It's shown only as an average, and only once at least three people have ranked the title, never with your name. Public accounts also appear on the leaderboard, which shows how many titles you've ranked, unless you turn off Settings → Show on Leaderboard. Private accounts never count toward Bynge scores, and appear on the leaderboard only to followers they've approved (and only if they haven't turned it off).
 
