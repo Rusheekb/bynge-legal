@@ -51,6 +51,8 @@ People you have blocked can't see your activity or comments, and you won't see t
 
 **Bynge scores and the leaderboard.** If your account is public, your scores count toward each title's Bynge score. It's shown only as an average, and only once at least three people have ranked the title, never with your name. Public accounts also appear on the leaderboard, which shows how many titles you've ranked, unless you turn off Settings → Show on Leaderboard. Private accounts never count toward Bynge scores, and appear on the leaderboard only to followers they've approved (and only if they haven't turned it off).
 
+**Describing what you want to watch.** On iPhones with Apple Intelligence, you can describe what you'd like to watch in Discover. Your description is interpreted by Apple's on-device model and never leaves your iPhone: we don't receive or store it. Only the resulting genres and years are sent to TMDB as a search.
+
 ## Who we share information with
 
 We use a small number of service providers to run Bynge:
@@ -58,7 +60,7 @@ We use a small number of service providers to run Bynge:
 - **Supabase**, which hosts Bynge's database, sign-in, and file storage, on servers in the United States.
 - **Apple Push Notification service**, which delivers notifications to your device.
 - **TelemetryDeck**, a privacy-focused analytics service, which receives only the anonymous usage and diagnostics events described above.
-- **The Movie Database (TMDB)**, which supplies film and TV information and artwork. Requests to TMDB contain only title identifiers and search text, never your account or personal information.
+- **The Movie Database (TMDB)**, which supplies film and TV information and artwork. Requests to TMDB contain only title identifiers, search text, and genre and year filters, never your account or personal information.
 
 These providers process data only to provide their services to Bynge.
 
