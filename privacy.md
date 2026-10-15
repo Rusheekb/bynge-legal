@@ -51,7 +51,7 @@ People you have blocked can't see your activity or comments, and you won't see t
 
 **Bynge scores and the leaderboard.** If your account is public, your scores count toward each title's Bynge score. It's shown only as an average, and only once at least three people have ranked the title, never with your name. Public accounts also appear on the leaderboard, which shows how many titles you've ranked, unless you turn off Settings → Show on Leaderboard. Private accounts never count toward Bynge scores, and appear on the leaderboard only to followers they've approved (and only if they haven't turned it off).
 
-**Describing what you want to watch.** On iPhones with Apple Intelligence, you can describe what you'd like to watch in Discover. Your description is interpreted by Apple's on-device model and never leaves your iPhone: we don't receive or store it. Only the resulting genres and years are sent to TMDB as a search.
+**Apple Intelligence features.** On iPhones with Apple Intelligence, Bynge uses Apple's on-device model for two optional features. When you describe what you'd like to watch in Discover, your description is interpreted on your iPhone and never leaves it: we don't receive or store it, and only the resulting genres and years are sent to TMDB as a search. The "Your Taste" summary on your Stats page is written on your iPhone from your stats, saved only on your device, and never sent to us.
 
 ## Who we share information with
 
