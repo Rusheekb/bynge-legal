@@ -17,7 +17,7 @@ The short version: we collect only what the app needs to work. We don't sell you
 
 **Profile information.** Your username, and optionally a display name, bio, and profile photo.
 
-**Content you create.** The titles you log, mark as watched, or add to your watchlist; your rankings and scores; the head-to-head comparisons you make; notes and reviews you write; comments; reactions; your diary; and the accounts you follow or block.
+**Content you create.** The titles you log, mark as watched, or add to your watchlist; your rankings and scores; the head-to-head comparisons you make; notes and reviews you write; comments; reactions; your diary; lists you make; and the accounts you follow or block.
 
 **Reports.** If you report an account or content, we store the report, the reason you chose, and what was reported.
 
@@ -43,7 +43,7 @@ We don't sell or rent your personal information, and we don't use it for adverti
 
 Your **username, display name, profile photo, and bio** are visible to other signed-in Bynge users, as are the accounts you follow.
 
-By default, your **rankings, watch activity, diary, reviews, and reactions** are visible to other signed-in users. If you turn on **Private Account** in Settings, people have to request to follow you, and only the followers you approve can see them. Follow requests are visible only to you and the person who sent them.
+By default, your **rankings, watch activity, diary, reviews, lists, and reactions** are visible to other signed-in users. If you turn on **Private Account** in Settings, people have to request to follow you, and only the followers you approve can see them. Follow requests are visible only to you and the person who sent them.
 
 Comments you post are visible to everyone who can see the post you commented on. The post's owner can delete comments on their post.
 
