@@ -47,6 +47,8 @@ By default, your **rankings, watch activity, diary, reviews, and reactions** are
 
 People you have blocked can't see your activity in their feed, and you won't see theirs.
 
+**Bynge scores and the leaderboard.** If your account is public, your scores count toward each title's Bynge score. It's shown only as an average, and only once at least three people have ranked the title, never with your name. Public accounts also appear on the leaderboard, which shows how many titles you've ranked, unless you turn off Settings → Show on Leaderboard. Private accounts never count toward Bynge scores, and appear on the leaderboard only to followers they've approved (and only if they haven't turned it off).
+
 ## Who we share information with
 
 We use a small number of service providers to run Bynge:
