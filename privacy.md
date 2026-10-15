@@ -43,7 +43,7 @@ We don't sell or rent your personal information, and we don't use it for adverti
 
 Your **username, display name, profile photo, and bio** are visible to other signed-in Bynge users, as are the accounts you follow.
 
-By default, your **rankings, watch activity, notes, and reactions** are visible to other signed-in users. If you turn on **Private Account** in Settings, your rankings, activity, and notes are visible only to you and to the people you follow.
+By default, your **rankings, watch activity, diary, reviews, and reactions** are visible to other signed-in users. If you turn on **Private Account** in Settings, people have to request to follow you, and only the followers you approve can see them. Follow requests are visible only to you and the person who sent them.
 
 People you have blocked can't see your activity in their feed, and you won't see theirs.
 
