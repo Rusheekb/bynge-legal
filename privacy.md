@@ -25,11 +25,13 @@ The short version: we collect only what the app needs to work. We don't sell you
 
 **Country.** The country your iPhone's region is set to (for example, "US"), so watchlist alerts check the streaming services available where you are. It comes from your region setting, not from location services.
 
+**Contacts, if you choose to find friends.** If you use "Find Friends from Contacts" and allow access, Bynge reads only your contacts' email addresses. Each address is turned into a one-way code (a SHA-256 hash) on your iPhone, and only those codes are sent to check which belong to Bynge accounts. They are compared and then discarded: we don't store them, your contacts' names, or anything else about your contacts. Others can find your account this way only if they have your email address, and you can turn that off in Settings → Let People Find Me by Email.
+
 **Letterboxd imports.** If you import from Letterboxd, the export file is read on your device. Only the matched titles, years, and ratings are saved to your account; the file itself is not uploaded.
 
 **Anonymous usage and diagnostics.** Unless you turn off Settings → Share Anonymous Usage Data, Bynge sends anonymous events such as "a ranking was completed" or "the app crashed", with coarse details like whether it was a film or a TV show. These events never include the titles you rank, your notes, your username, email, or account. They're tied only to a one-way hash of a random device identifier, so they can't be connected to you or your account.
 
-**Information we don't collect.** We don't use location services or collect your precise location (the country setting above is the only location-related information), and we don't collect your contacts, browsing history, advertising identifier, or any data for advertising. Bynge contains no advertising SDKs.
+**Information we don't collect.** We don't use location services or collect your precise location (the country setting above is the only location-related information), and we don't store your contacts (see above), browsing history, advertising identifier, or any data for advertising. Bynge contains no advertising SDKs.
 
 ## How we use information
 
