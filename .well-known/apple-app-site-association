@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["PRKQL79GG2.com.bynge.app", "PRKQL79GG2.com.bynge.app.dev"],
+        "components": [
+          { "/": "/invite/*", "comment": "An invite: opens the inviter's profile (DeepLink.invite)" },
+          { "/": "/title/*", "comment": "A film or show's page (DeepLink.title)" }
+        ]
+      }
+    ]
+  }
+}
