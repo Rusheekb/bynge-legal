@@ -4,3 +4,6 @@
 title: Bynge
 description: Rank the films and TV shows you watch.
 theme: jekyll-theme-minimal
+# Apple's universal-links file (copied from docs/site/) lives in .well-known,
+# a dot-folder Jekyll skips unless it's listed here.
+include: [".well-known"]

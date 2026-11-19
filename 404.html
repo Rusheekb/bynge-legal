@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bynge</title>
+  <meta name="description" content="Rank the films and TV shows you watch.">
+  <meta property="og:title" content="Bynge">
+  <meta property="og:description" content="Rank the films and TV shows you watch, and see what your friends think.">
+  <!--
+    GitHub Pages serves this page for any path without a file, which includes
+    the app's universal links (/invite/<username>, /title/<film|tv>/<id>).
+    With Bynge installed, iOS opens the app and this page never loads; this
+    is what everyone else sees. Source: docs/site/404.html in the app repo.
+  -->
+  <style>
+    :root { --bg: #ffffff; --text: #111111; --muted: #5f5f66; --accent: #A0490A; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #000000; --text: #f2f2f7; --muted: #a1a1a8; --accent: #D97706; }
+    }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: var(--bg); color: var(--text);
+      font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 440px; padding: 32px 16px; text-align: center; }
+    .wordmark { font-size: 40px; font-weight: 700; letter-spacing: -0.5px; margin: 0 0 24px; color: var(--text); }
+    .wordmark span { color: var(--accent); }
+    h1 { font-size: 24px; margin: 0 0 12px; overflow-wrap: anywhere; }
+    p { color: var(--muted); margin: 0 0 16px; }
+    a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="wordmark"><span>B</span>ynge</p>
+    <h1 id="heading">Page not found</h1>
+    <p id="detail">There's nothing at this address.</p>
+    <p id="soon" hidden>Bynge is coming to the App Store soon.</p>
+    <p><a id="open" href="/" hidden>Open in Bynge</a></p>
+    <p><a href="/">Bynge Support</a></p>
+  </main>
+  <script>
+    // Same rules as the app's DeepLink.parse and UsernameValidator.
+    (function () {
+      var parts = location.pathname.split('/').filter(Boolean);
+      var kind = (parts[0] || '').toLowerCase();
+      var heading = document.getElementById('heading');
+      var detail = document.getElementById('detail');
+      var open = document.getElementById('open');
+
+      function showApp(appLink) {
+        document.getElementById('soon').hidden = false;
+        open.href = appLink;
+        open.hidden = false;
+      }
+
+      if (kind === 'invite' && parts[1]) {
+        var username = parts[1].toLowerCase();
+        if (/^[a-z0-9._]{3,30}$/.test(username)) {
+          heading.textContent = '@' + username + ' invited you to Bynge';
+          detail.textContent = 'Rank the films and shows you watch, and see what your friends think.';
+          showApp('bynge://invite/' + username);
+        }
+      } else if (kind === 'title' && /^(film|tv)$/.test((parts[1] || '').toLowerCase()) && /^[1-9][0-9]*$/.test(parts[2] || '')) {
+        heading.textContent = 'See this ' + (parts[1].toLowerCase() === 'tv' ? 'show' : 'film') + ' on Bynge';
+        detail.textContent = 'Rank the films and shows you watch, and see what your friends think.';
+        showApp('bynge://title/' + parts[1].toLowerCase() + '/' + parts[2]);
+      }
+    })();
+  </script>
+</body>
+</html>
