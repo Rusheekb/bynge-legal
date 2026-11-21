@@ -17,7 +17,7 @@ The short version: we collect only what the app needs to work. We don't sell you
 
 **Profile information.** Your username, and optionally a display name, bio, and profile photo.
 
-**Content you create.** The titles you log, mark as watched, or add to your watchlist; your rankings and scores; the head-to-head comparisons you make; notes and reviews you write; comments; reactions; your diary; lists you make; and the accounts you follow or block.
+**Content you create.** The titles you log, mark as watched, or add to your watchlist; your rankings and scores; the head-to-head comparisons you make; notes and reviews you write; comments; reactions; your diary; lists you make; the titles you mark Not Interested, so they're left out of your recommendations; and the accounts you follow or block. Titles you mark Not Interested are visible only to you.
 
 **Reports.** If you report an account or content, we store the report, the reason you chose, and what was reported.
 
@@ -29,7 +29,7 @@ The short version: we collect only what the app needs to work. We don't sell you
 
 **Letterboxd imports.** If you import from Letterboxd, the export file is read on your device. Only the matched titles, years, and ratings are saved to your account; the file itself is not uploaded.
 
-**Anonymous usage and diagnostics.** Unless you turn off Settings → Share Anonymous Usage Data, Bynge sends anonymous events such as "a ranking was completed", "the app was opened", or "the app crashed", with coarse details like whether it was a film or a TV show, plus your device model, iOS and app versions, language, time zone, screen size, and whether you're on Wi-Fi or cellular. These events never include the titles you rank, your notes, your username, email, or account. They're tied only to a random identifier the app creates on your iPhone (a new one if you reinstall), never to your account, so they can't be connected to you. Your IP address is discarded and isn't used to work out your location.
+**Anonymous usage and diagnostics.** Unless you turn off Settings → Share Anonymous Usage Data, Bynge sends anonymous events such as "a ranking was completed", "the app was opened", or "the app crashed", with coarse details like whether it was a film or a TV show, plus your device model, iOS and app versions, language, time zone, screen size, and whether you're on Wi-Fi or cellular. For recommendations, events say which rows were shown, and when you open, save, rank, or mark Not Interested a suggestion, which row it was in and its place in that row, but never which title it was. These events never include the titles you rank, your notes, your username, email, or account. They're tied only to a random identifier the app creates on your iPhone (a new one if you reinstall), never to your account, so they can't be connected to you. Your IP address is discarded and isn't used to work out your location.
 
 **Information we don't collect.** We don't use location services or collect your precise location (the country setting above is the only location-related information), and we don't store your contacts (see above), browsing history, advertising identifier, or any data for advertising. Bynge contains no advertising SDKs.
 
@@ -72,7 +72,7 @@ We may also disclose information if the law requires it, to protect the safety o
 
 ## How long we keep information
 
-We keep your information for as long as your account exists. When you delete your account, your profile, rankings, logs, notes, reactions, follows, notifications, reports you've made, notification token, and profile photo are permanently deleted from our live systems immediately. Residual copies in our hosting provider's backups are removed within 30 days.
+We keep your information for as long as your account exists. When you delete your account, your profile, rankings, logs, notes, reactions, follows, notifications, titles you've marked Not Interested, reports you've made, notification token, and profile photo are permanently deleted from our live systems immediately. Residual copies in our hosting provider's backups are removed within 30 days.
 
 ## Your choices and rights
 
