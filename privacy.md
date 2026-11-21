@@ -35,7 +35,8 @@ The short version: we collect only what the app needs to work. We don't sell you
 
 ## How we use information
 
-- To run your account and the app's features: ranking, your lists, your profile, following friends, and the activity feed.
+- To run your account and the app's features: ranking, your lists, your profile, following friends, the activity feed, and recommendations.
+- To recommend titles. Your recommendations come from your own rankings, watchlist, and the titles you mark Not Interested, and from the rankings of people you follow whose rankings you can see. In the same way, a title you loved may be suggested to people who follow you and can see your rankings, with your name beside it.
 - To show your public profile and, unless your account is private, your activity to other signed-in Bynge users.
 - To send notifications you've turned on, such as new followers, friend activity, and when something on your watchlist starts streaming in your country. Watchlist alerts also appear in the app's notifications, and you can turn them off in Settings → Watchlist Alerts.
 - To keep Bynge safe: enforcing our Terms, reviewing reports, and blocking abusive accounts.
