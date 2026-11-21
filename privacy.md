@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Bynge Privacy Policy
 
-**Effective October 14, 2026 · Last updated November 20, 2026**
+**Effective October 14, 2026 · Last updated November 21, 2026**
 
 Bynge is a free app for ranking the films and TV shows you watch and sharing your taste with friends. It is operated by an individual developer ("we", "us"). This policy explains what information Bynge collects, how it is used, and the choices you have.
 
@@ -65,7 +65,7 @@ We use a small number of service providers to run Bynge:
 - **Supabase**, which hosts Bynge's database, sign-in, and file storage, on servers in the United States.
 - **Apple Push Notification service**, which delivers notifications to your device.
 - **PostHog**, a product analytics service, on servers in the United States, which receives only the anonymous usage and diagnostics events described above.
-- **The Movie Database (TMDB)**, which supplies film and TV information and artwork. Requests to TMDB contain only title identifiers, search text, genre and year filters, and (for watchlist alerts) a country code, never your account or personal information.
+- **The Movie Database (TMDB)**, which supplies film and TV information and artwork. The app's requests for film and TV information go through our server, so TMDB doesn't see your device's IP address; artwork loads directly from TMDB's image servers. Requests to TMDB contain only title identifiers, search text, genre and year filters, and (for watchlist alerts) a country code, never your account or personal information.
 
 These providers process data only to provide their services to Bynge.
 
