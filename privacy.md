@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Bynge Privacy Policy
 
-**Effective October 14, 2026 · Last updated October 16, 2026**
+**Effective October 14, 2026 · Last updated November 20, 2026**
 
 Bynge is a free app for ranking the films and TV shows you watch and sharing your taste with friends. It is operated by an individual developer ("we", "us"). This policy explains what information Bynge collects, how it is used, and the choices you have.
 
@@ -29,7 +29,7 @@ The short version: we collect only what the app needs to work. We don't sell you
 
 **Letterboxd imports.** If you import from Letterboxd, the export file is read on your device. Only the matched titles, years, and ratings are saved to your account; the file itself is not uploaded.
 
-**Anonymous usage and diagnostics.** Unless you turn off Settings → Share Anonymous Usage Data, Bynge sends anonymous events such as "a ranking was completed" or "the app crashed", with coarse details like whether it was a film or a TV show. These events never include the titles you rank, your notes, your username, email, or account. They're tied only to a one-way hash of a random device identifier, so they can't be connected to you or your account.
+**Anonymous usage and diagnostics.** Unless you turn off Settings → Share Anonymous Usage Data, Bynge sends anonymous events such as "a ranking was completed", "the app was opened", or "the app crashed", with coarse details like whether it was a film or a TV show, plus your device model, iOS and app versions, language, time zone, screen size, and whether you're on Wi-Fi or cellular. These events never include the titles you rank, your notes, your username, email, or account. They're tied only to a random identifier the app creates on your iPhone (a new one if you reinstall), never to your account, so they can't be connected to you. Your IP address is discarded and isn't used to work out your location.
 
 **Information we don't collect.** We don't use location services or collect your precise location (the country setting above is the only location-related information), and we don't store your contacts (see above), browsing history, advertising identifier, or any data for advertising. Bynge contains no advertising SDKs.
 
@@ -63,7 +63,7 @@ We use a small number of service providers to run Bynge:
 
 - **Supabase**, which hosts Bynge's database, sign-in, and file storage, on servers in the United States.
 - **Apple Push Notification service**, which delivers notifications to your device.
-- **TelemetryDeck**, a privacy-focused analytics service, which receives only the anonymous usage and diagnostics events described above.
+- **PostHog**, a product analytics service, on servers in the United States, which receives only the anonymous usage and diagnostics events described above.
 - **The Movie Database (TMDB)**, which supplies film and TV information and artwork. Requests to TMDB contain only title identifiers, search text, genre and year filters, and (for watchlist alerts) a country code, never your account or personal information.
 
 These providers process data only to provide their services to Bynge.
